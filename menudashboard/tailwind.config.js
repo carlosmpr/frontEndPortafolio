@@ -5,10 +5,25 @@ module.exports = {
     backgroundColor: theme => ({
      ...theme('colors'),
       'primary': '#1F1D2B',
-     'secondary': '#ffed4a',
+     'secondary': '#252836',
       'danger': '#e3342f',
-    })
-  },
+    }),
+
+    textColor: {
+      'primary':'white',
+      'secondary':'#EA7C69'
+    },
+
+
+    borderColor: theme => ({
+             ...theme('colors'),
+              DEFAULT: theme('colors.gray.300', 'currentColor'),
+             'primary': '#393C49',
+             'secondary': '#EA7C69',
+            'danger': '#e3342f',
+            })
+          },
+
   variants: {
     extend: {},
   },
