@@ -6,7 +6,7 @@ module.exports = {
      ...theme('colors'),
       'primary': '#1F1D2B',
      'secondary': '#252836',
-      'danger': '#e3342f',
+      'theme': '#EA7C69',
     }),
 
     textColor: {
