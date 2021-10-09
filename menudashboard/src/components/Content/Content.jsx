@@ -1,4 +1,5 @@
 import React from "react";
+import DropDown from "../DropDown/DropDown";
 import SearchBar from "../SearchBar";
 import Navigation from "../TextNavigation/Navigation";
 export default function Content() {
@@ -15,6 +16,14 @@ export default function Content() {
           <SearchBar />
         </div>
      <Navigation />
+
+     <div className="w-full flex items-start justify-between">
+          <div className="p-2">
+            <h1 className="text-xl font-bold text-primary">Choose Dishes</h1>
+            </div>
+          
+       <DropDown />
+        </div>
       </div>
     </div>
   );
