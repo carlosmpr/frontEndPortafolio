@@ -1,7 +1,6 @@
 import React from "react";
 import Button from "../Buttons/Button";
 import OutlineButton from "../Buttons/OutlineButton";
-import food from '../../assets/images/Content/food.png'
 import CheckoutItem from "./CheckoutItem";
 export default function Checkout() {
   return (
