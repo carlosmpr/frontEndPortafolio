@@ -11,7 +11,9 @@ module.exports = {
 
     textColor: {
       'primary':'white',
-      'secondary':'#EA7C69'
+      'secondary':'#EA7C69',
+      'purple':'rgba(124, 58, 237)',
+      'green':'rgba(5, 150, 105)'
     },
 
 
