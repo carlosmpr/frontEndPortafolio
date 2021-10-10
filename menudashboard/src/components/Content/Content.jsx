@@ -1,73 +1,31 @@
 import React from "react";
-import OutlineIconButton from "../Buttons/OutlineIconButton";
-import RevenueCard from "../Cards/RevenueCard";
-import DropDown from "../DropDown/DropDown";
-import Home from "../Pages/Home";
-import TableReport from "../Table/TableReport";
-import food from "../../assets/images/Content/food.png";
-import Items from "../Items/Items";
-import OutlineButton from "../Buttons/OutlineButton";
-import DoughnutChart from "../Chart/Chart";
+import IconItem from "../Items/IconItems";
+
+
+
 export default function Content() {
-  const date = new Date();
-  const localeDate = date.toLocaleDateString();
+
   return (
     <div className="flex flex-1 h-full bg-secondary overflow-y-scroll p-9">
-      <div className="w-4/6 flex flex-col space-y-10 p-4">
-        <div className="w-full flex items-start justify-between">
-          <div>
-            <h1 className="text-2xl font-bold text-primary">Dashboard</h1>
-            <p className="text-xl text-primary font-thin">{localeDate}</p>
-          </div>
-        </div>
-        <hr />
-        <div className="w-full flex justify-evenly">
-          <RevenueCard
-            icon={"fas fa-dollar-sign"}
-            gain={"+32.40%"}
-            desc={"Total revenue"}
-            total={"$10,243"}
-          />
-          <RevenueCard
-            icon={"fas fa-bookmark"}
-            gain={"-12.40%"}
-            desc={"Total Dish Ordered"}
-            total={"23,243"}
-          />
-          <RevenueCard
-            icon={"fas fa-user"}
-            gain={"+2.40%"}
-            desc={"Total Customer"}
-            total={"23,243"}
-          />
-        </div>
+     <div className="w-full h-full flex flex-col space-y-5">
+     <h1 className="text-2xl font-bold text-primary">Settings</h1>
+     <div className="flex w-full h-full">
+       <div className="flex flex-col w-72 bg-primary h-full gap-y-10 rounded-md shadow-md overflow-y-scroll p-4">
+       <IconItem text="Appereance" desc="Dark and Light mode. Font size" icon="fas fa-heart"/>
+       <IconItem text="Your Restaurant" desc="Dark and Light mode. Font size" icon="fas fa-home"/>
+       <IconItem text="Product Management" desc="Manage your Products" icon="fas fa-life-ring"/>
+       <IconItem text="Notification" desc="Customize your notification" icon="fas fa-bell"/>
+       
+       <IconItem text="Security" desc="Configure Passworn. Pin" icon="fas fa-lock"/>
+       <IconItem text="About Us" desc="Fin more info" icon="fas fa-info-circle"/>
+       
+       
 
-        <TableReport />
-      </div>
-      <div className="flex-1 h-full space-y-6">
-        <div className="w-full bg-primary h-96 rounded-md p-4 space-y-4 ">
-          <div className="w-full flex items-center justify-between  ">
-            <h3 className="text-xl text-primary"> Order Report</h3>
-            <DropDown />
-          </div>
-          <hr />
-          <div className="h-52 overflow-y-scroll space-y-4  p-2">
-            <Items />
-            <Items />
-            <Items />
-            <Items />
-            <Items />
-          </div>
-          <hr />
-          <OutlineButton text="View All"/>
-        </div>
-        
-        
-
-          <DoughnutChart />
+       </div>
+     </div>
+     </div>
    
-      </div>
-     
     </div>
   );
 }
+
