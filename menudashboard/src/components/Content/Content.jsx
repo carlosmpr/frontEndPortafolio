@@ -1,8 +1,13 @@
 import React from "react";
 import OutlineIconButton from "../Buttons/OutlineIconButton";
 import RevenueCard from "../Cards/RevenueCard";
+import DropDown from "../DropDown/DropDown";
 import Home from "../Pages/Home";
 import TableReport from "../Table/TableReport";
+import food from "../../assets/images/Content/food.png";
+import Items from "../Items/Items";
+import OutlineButton from "../Buttons/OutlineButton";
+import DoughnutChart from "../Chart/Chart";
 export default function Content() {
   const date = new Date();
   const localeDate = date.toLocaleDateString();
@@ -39,7 +44,30 @@ export default function Content() {
 
         <TableReport />
       </div>
-      <div className="flex-1 h-full bg-red-200"></div>
+      <div className="flex-1 h-full space-y-6">
+        <div className="w-full bg-primary h-96 rounded-md p-4 space-y-4 ">
+          <div className="w-full flex items-center justify-between  ">
+            <h3 className="text-xl text-primary"> Order Report</h3>
+            <DropDown />
+          </div>
+          <hr />
+          <div className="h-52 overflow-y-scroll space-y-4  p-2">
+            <Items />
+            <Items />
+            <Items />
+            <Items />
+            <Items />
+          </div>
+          <hr />
+          <OutlineButton text="View All"/>
+        </div>
+        
+        
+
+          <DoughnutChart />
+   
+      </div>
+     
     </div>
   );
 }

@@ -9,7 +9,7 @@ export default function DropDown() {
       setShow(false)
   }
   return (
-    <div className="relative flex w-32 bg-primary shadow-md rounded-md p-2 items-center justify-around">
+    <div className="relative flex w-32 border bg-primary shadow-md rounded-md p-2 items-center justify-around">
       <i class="fas fa-sort-down text-primary"></i>
       <button onClick={() => setShow(!show)} className="text-primary">
         {text}
