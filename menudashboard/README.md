@@ -1,44 +1,46 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+# Restaurant management Dashboard
 
-## Available Scripts
+Front-end design concept for restaurant management is to add or edit dishes, see sales and client information. Clients can order in or go, payment, and more.
 
-In the project directory, you can run:
+# Develop with
+1. React
+2. Designed with TailwindCSS
 
-### `yarn start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+# Screenshots
 
-### `yarn test`
+### Home Screen
+![Home Screen](https://imagesandstuff.s3.amazonaws.com/Screen+Shot+2021-10-10+at+9.13.55+AM.png)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+### Home Screen with checkout
+![Home Screen](https://imagesandstuff.s3.amazonaws.com/Screen+Shot+2021-10-10+at+9.16.48+AM.png)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Payment
+![Payment](https://imagesandstuff.s3.amazonaws.com/Screen+Shot+2021-10-10+at+9.17.35+AM.png)
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Dashboard
+![Dashboard](https://imagesandstuff.s3.amazonaws.com/Screen+Shot+2021-10-10+at+9.18.33+AM.png)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+### Setting Screen
+![Setting Screen](https://imagesandstuff.s3.amazonaws.com/Screen+Shot+2021-10-10+at+9.02.54+AM.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+
+
+# Author
+>Develop by: Carlos Polanco<br>
+Linkedin: https://www.linkedin.com/in/carlosmpr/<br>
+Github: https://github.com/carlosmpr<br>
+Medium: https://cmpr.medium.com<br>
+Portfolio: https://carlosmpr.github.io/portfoliosite2/
+

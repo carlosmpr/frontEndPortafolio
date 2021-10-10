@@ -25,7 +25,7 @@ export default function Home() {
           <DropDown />
         </div>
 
-        <div className="w-full flex flex-wrap gap-x-8 gap-y-24">
+        <div className="w-full flex flex-wrap gap-x-14 gap-y-24">
 
          <FoodCard image={food} />
          <FoodCard image={food} />
