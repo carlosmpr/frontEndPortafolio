@@ -18,6 +18,9 @@
 ![Home Screen](https://imagesandstuff.s3.amazonaws.com/class.png)
 
 
+## Crypto Follow
+![Home Screen](https://imagesandstuff.s3.amazonaws.com/crypto2.png)
+
 # Author
 >Develop by: Carlos Polanco<br>
 Linkedin: https://www.linkedin.com/in/carlosmpr/<br>
