@@ -5,7 +5,7 @@ export default function Sidebar() {
   return (
     <div className="flex flex-col bg-primary w-52 h-full items-center justify-evenly  ">
       <SidebarItems>
-        <p className="font-bold text-lg">Eduera</p>
+        <p className="font-bold text-2xl">EduEra</p>
       </SidebarItems>
       <SidebarItems>
       <i class="fas fa-th"></i>
