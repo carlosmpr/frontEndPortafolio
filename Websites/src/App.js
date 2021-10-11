@@ -59,6 +59,7 @@ function App() {
    
       </div>
       <HeroCenter title={'Start your business now !!!'} image={Talk}/>
+      <div className="h-24"></div>
      </div>
     </div>
   );
