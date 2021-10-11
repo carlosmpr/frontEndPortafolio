@@ -14,7 +14,8 @@
 ![Home Screen](https://imagesandstuff.s3.amazonaws.com/tennisDashboard.png)
 
 
-
+## EduEra
+![Home Screen](https://imagesandstuff.s3.amazonaws.com/class.png)
 
 
 # Author
