@@ -18,6 +18,15 @@ module.exports = {
       'purple':'rgba(124, 58, 237)',
       'green':'rgba(5, 150, 105)'
     },
+
+    borderColor: theme => ({
+      ...theme('colors'),
+       DEFAULT: theme('colors.gray.300', 'currentColor'),
+      'primary': '#7C76BB',
+      'secondary': '#EA7C69',
+     'danger': '#e3342f',
+     }),
+   
     extend: {},
   },
   variants: {
