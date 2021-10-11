@@ -5,13 +5,14 @@ module.exports = {
     backgroundColor: theme => ({
       ...theme('colors'),
        'primary': 'white',
-      'secondary': '#F4F5F7',
-       'theme': '#EA7C69',
+      'secondary': '#E1EAFF',
+       'theme': '#7F77C5',
      }),
 
      textColor: {
       'primary':'#3C3F88',
       'secondary':'#EA7C69',
+      'white':'white',
       'purple':'rgba(124, 58, 237)',
       'green':'rgba(5, 150, 105)'
     },
