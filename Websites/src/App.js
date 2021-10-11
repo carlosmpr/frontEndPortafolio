@@ -16,6 +16,8 @@ import Card from './components/navBar/reusables/Card';
 import Award from './assets/images/award.png'
 import Avatar from './assets/images/avatar4.png'
 import Testimonials from './components/navBar/reusables/Testimonials';
+import HeroCenter from './components/navBar/reusables/HeroCenter';
+import Talk from './assets/images/talk.png'
 function App() {
   return (
     <div className="App">
@@ -56,6 +58,7 @@ function App() {
     <Testimonials image={Avatar} text={"“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc condimentum velit egestas rutrum purus. Quam velit velit nisi ultrices gravida est in tellus. Id in faucibus consequat hendrerit scelerisque maecenas massa, quis. “ - Customer"}/>
    
       </div>
+      <HeroCenter title={'Start your business now !!!'} image={Talk}/>
      </div>
     </div>
   );
