@@ -23,7 +23,7 @@ module.exports = {
     borderColor: theme => ({
       ...theme('colors'),
        DEFAULT: theme('colors.gray.300', 'currentColor'),
-      'primary': '#7C76BB',
+       'primary': '#D563A4',
       'secondary': '#EA7C69',
      'danger': '#e3342f',
      }),
