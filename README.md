@@ -27,12 +27,12 @@
 
 
 ## Nutrition Website
-![Home Screen](https://imagesandstuff.s3.amazonaws.com/nutri.gif)
+![Nutri](https://imagesandstuff.s3.amazonaws.com/nutri.gif)
 
 
 
 ### CoinDollar
-![Home Screen](https://imagesandstuff.s3.amazonaws.com/coin.gif)
+![CoinDollar](https://imagesandstuff.s3.amazonaws.com/coin.gif)
 
 
 # Author
@@ -42,3 +42,4 @@ Github: https://github.com/carlosmpr<br>
 Medium: https://cmpr.medium.com<br>
 Portfolio: https://carlosmpr.github.io/portfoliosite2/
 
+//

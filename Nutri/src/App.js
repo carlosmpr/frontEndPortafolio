@@ -16,7 +16,7 @@ import Expert from "./assets/images/expert.png";
 import Expert2 from "./assets/images/expert2.png";
 function App() {
   return (
-    <div className="App bg-gradient-to-r from-gray-50 via-red-200 to-yellow-100">
+    <div className="App bg-gray-100">
       <NavBar />
       <div className="w-full h-screen   overflow-y-scroll ">
         <Hero
