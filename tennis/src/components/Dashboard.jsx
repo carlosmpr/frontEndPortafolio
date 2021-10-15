@@ -32,7 +32,7 @@ export default function Dashboard() {
               <p className="text-4xl text-primary">:</p>
               <Items
                 image={Avatar2}
-                name="Anindita R"
+                name="Jessica R"
                 country="USA"
                 reverse={"flex-row-reverse"}
               />
@@ -61,7 +61,7 @@ export default function Dashboard() {
         <div className="w-full relative bg-primary h-96 rounded-2xl overflow-hidden shadow-md">
           <div className="w-full p-4  h-36 bg-gradient-to-r   from-purple-500 to-purple-700">
             <div className="flex-col w-1/2 text-white">
-            <h3 className="text-xl font-bold "> Anindita Rahmawati</h3>
+            <h3 className="text-xl font-bold "> Jessica Rogers</h3>
             <p className="font-thin">Usa</p>
             </div>
           </div>
@@ -96,7 +96,7 @@ export default function Dashboard() {
               <th>Mixed</th>
             </tr>
             <tr>
-              <td className="font-bold">Anin. R</td>
+              <td className="font-bold">Jess R</td>
               <td className="font-thin">2</td>
 
               <td className="font-thin">6</td>
